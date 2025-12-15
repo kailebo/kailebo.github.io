@@ -16,31 +16,27 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Kaileb O'Neil",
+  title: "Hello, I'm Kaileb",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Mechanical Engineer and Data Analyst passionate about elegant design, workflow automation and sustainability."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Hc0-JaKV6_TyU85Uxf9wa94nWEHvQ4nU/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/kailebo",
+  linkedin: "https://www.linkedin.com/in/kaileboneil/",
+  gmail: "kaileb.oneil@gmail.com",
+  // Instagram, Twitter and Kaggle, Medium, FB, StackOverflow are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -49,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Multi-displined problem solver, constantly throwing myself into new challanges and expanding my skillset to adapt",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design, Model and Draft eletromecanical prducts with practiced DFM and DFA insights"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Analyze data and automate workflows to create efficient, data-driven "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design sustainable energy power systems and EMS program for homes, vans, and boats"
     )
   ],
 
@@ -65,52 +61,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },    
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
     },
     {
       skillName: "docker",
@@ -123,10 +107,10 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Cedarville University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
@@ -137,7 +121,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Codecademy",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
@@ -150,7 +134,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +158,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Freelance Engineer",
+      company: "Mechanical Designer & Drafter",
+      companylogo: require("./assets/images/adv-kiosks-shop.jpg"),
+      date: "",
+      desc: "Design products with DFM and DFA principles and modeled and drafted them in CAD.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed version control systems and managed manufacturing relations and assembly workflows",
+        "Led communication between project subteams to ensure cohesive design",
+        "Handled client relations, validating design aesthetic and specifications met expectations"
+      ]
+    },
+        {
+      role: "Freelance Engineer",
+      company: "Themal Testing Lead",
+      companylogo: require("./assets/images/DogSpot-Photo.jpg"),
+      date: "",
+      desc: "Led themal testing for Dogspot's rentable climate controlled doghouse version 2.",
+      descBullets: [
+        "Rapidly prototyped version 2 design models for client to choose their preferred design.",
+        "Sourced and calibrated DAQ, and themeral testing equipment.",
+        "Designed and conducted thermal testing, then reduced the data into a report. This data drove desions on the version 2 design and allow me to create some rapid solutions for cooling issue Dogspot was having with version 1."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "AK Services",
+      company: "Hydro Demolition Testing & Repairman",
+      companylogo: require("./assets/images/ak-services-aqua-cutter.jpg"),
+      date: "",
+      desc: "Tested, repaired and cleaned hydro-demolition up to 40,000 psi",
+      descBullets: [
+        "Conducted maintainence and testing on mechanical, hydro, hydraulic, pnuematic and electrical systems",
+        "While testing a 40,000 psi hydro-demolition pump I notice the remote shutoff had be wired to cut power with a closed circit so I rewired it to fail open-circuit.",
+        "Disassembled and reassembled complex hydro-demplition piston blocks"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "SUNRUN",
+      company: "PV Solar Design",
+      companylogo: require("./assets/images/sunrun-logo.png"),
+      date: "",
+      desc: "Maximzed solar power systems with 3D shade modeling. Analyzed existing electrical and structural conditions to determine additional project scope of work.",
+      descBullets: [
+        "Increased productivity of myself and team by identifying tedious and repetitive tasks in the design process creating spreadsheets with Excel and VBA code to automate the tasks and shared them with my team.",
+        "Applied building and fire code requirements to fully scope each project"
+      ]
     }
   ]
 };
@@ -213,12 +219,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "PERSONAL PROJECTS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Solar Powered Off-grid Vanlife",
+      projectDesc: "Designed and built a solar powered home inside a RAM Promaster for my wife and I to live in full time.",
       footerLink: [
         {
           name: "Visit Website",
@@ -229,7 +235,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      projectName: "Solar Boat Energy Management System",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -239,7 +245,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +306,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -309,7 +315,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -324,7 +330,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +349,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +362,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,18 +375,18 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to reach out to discuss any oppurtinties or projects!",
+  number: "+1 603-557-0609",
+  email_address: "kaileb.oneil@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
